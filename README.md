@@ -1,3 +1,6 @@
+## Name:Prethivirajan.L
+## Reg No:212224040251
+
 # Ex--5-Rail-Fence-Program
 
 # IMPLEMENTATION OF RAIL FENCE – ROW & COLUMN TRANSFORMATION TECHNIQUE
@@ -19,6 +22,7 @@ STEP-4: Arrange the characters of the keyword in sorted order and the correspond
 STEP-5: Read the characters row wise or column wise in the former order to get the cipher text.
 
 # PROGRAM
+```
 def encrypt_rail_fence(text, rails):
     rail = [['\n' for _ in range(len(text))] for _ in range(rails)]
     
@@ -77,7 +81,7 @@ print("\nEncrypted:", encrypted_text)
 
 decrypted_text = decrypt_rail_fence(encrypted_text, rails)
 print("Decrypted:", decrypted_text)
-
+```
 
 # OUTPUT
 ![Screenshot 2025-03-27 091852](https://github.com/user-attachments/assets/f01ddac7-0b27-483d-8aac-de18328d56bf)
